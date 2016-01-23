@@ -1,9 +1,11 @@
 # HellFOAM
 
 Application
+
     HellFoam
 
 Description
+
     Solve the He(II) superfluid equations. The solver is based on the Super-PISO
 	algorithm. 
 
@@ -21,6 +23,7 @@ Description
 	"
 
 Authors
+
 	2013-07-25: Cyprien Soulaine (CS, cyprien.soulaine@gmail.com) - First version
 	2013-09-09: CS - Second major release
 					* implementation of temperature-dependant variable. 
