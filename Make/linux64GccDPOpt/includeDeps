@@ -1,0 +1,3 @@
+include ClassPolynom/ClassPolynom.dep
+include HepakThermo/HepakThermo.dep
+include HellFoam.dep

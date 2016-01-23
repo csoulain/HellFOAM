@@ -1,0 +1,4 @@
+SOURCE = \
+ClassPolynom/ClassPolynom.C \
+HepakThermo/HepakThermo.C \
+HellFoam.C 

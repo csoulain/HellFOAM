@@ -1,0 +1,4 @@
+DEPENDENCIES = \
+ClassPolynom/ClassPolynom.dep\
+HepakThermo/HepakThermo.dep\
+HellFoam.dep
