@@ -10,17 +10,15 @@ Description
 	algorithm. 
 
     If you use this program, please cite
-	"
+
 	Soulaine, C.; Quintard, M.; Allain, H.; Baudouy, B. & Van Weelderen, R. 
 	A PISO-like algorithm to simulate superfluid helium flow with the two-fluid model 
 	Computer Physics Communications , 2015, 187, 20-28
-	"
-	"
+
 	Soulaine, C.; Quintard, M.; Allain, H.; Baudouy, B. & Van Weelderen, R. 
 	Numerical Investigation of Heat Transfer In a Forced Flow of He II 
 	Proceedings of the 15th International Heat Transfer Conference, 
 	IHTC-15 August 10-15, 2014, Kyoto, Japan, 2014
-	"
 
 Authors
 
