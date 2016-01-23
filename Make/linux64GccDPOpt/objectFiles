@@ -1,4 +1,0 @@
-OBJECTS = \
-$(OBJECTS_DIR)/ClassPolynom.o\
-$(OBJECTS_DIR)/HepakThermo.o\
-$(OBJECTS_DIR)/HellFoam.o

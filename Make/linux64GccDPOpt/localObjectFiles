@@ -1,4 +1,0 @@
-LOCAL_OBJECTS = \
-ClassPolynom.o\
-HepakThermo.o\
-HellFoam.o
