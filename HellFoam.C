@@ -52,7 +52,6 @@ Authors
 
 #include "ClassPolynom/ClassPolynom.H"
 #include "HepakThermo/HepakThermo.H"
-#include "polynom.H"
 #include "pimpleControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
