@@ -1,9 +1,5 @@
 # HellFOAM
 
-Application
-
-    HellFoam
-
 Description
 
     Solve the He(II) superfluid equations. The solver is based on the Super-PISO
@@ -22,8 +18,8 @@ Description
 
 Tutorials
 	
-	The package comes with different examples (just run HellFoam, the grid and initialization 
-	are already set up)
+	The package comes with different examples (just run HellFoam in a terminal, the grid and 
+	initialization are already set up)
 		* capillaryGorterMellink: solve superfluid helium flow in a tube in the Gorter-Mellink
 			regime. Simulation results can be compared with analytical solutions
 			(see Soulaine et al. 2015, section 4.2)
