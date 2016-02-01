@@ -20,11 +20,18 @@ Description
 	Proceedings of the 15th International Heat Transfer Conference, 
 	IHTC-15 August 10-15, 2014, Kyoto, Japan, 2014
 
+Tutorials
+	
+	The package comes with different examples 
+		* capillaryWithCylindersGorterMellink: solve superfluid helium flow in a porous medium 
+			model (a capillary containing several solid cylinders) in the Gorter-Mellink regime
+			(see Soulaine et al. 2015, section 4.4)
+
 Authors
 
 	2013-07-25: Cyprien Soulaine (CS, cyprien.soulaine@gmail.com) - First version
 	2013-09-09: CS - Second major release
-					* implementation of temperature-dependant variable. 
+					* implementation of temperature-dependant variables. 
 					* Correction of the temperature equation.
 					* Upgrade to OpenFOAM 2.2.1
 	2014-03-24: CS - minor release
