@@ -1,3 +1,7 @@
+# temp files
+*~
+
+
 # Object files
 *.o
 *.ko
