@@ -1,0 +1,12 @@
+faceSet inletSet new patchToFace defaultFaces
+faceSet outletSet new patchToFace defaultFaces
+faceSet topSet new patchToFace defaultFaces
+faceSet bottomSet new patchToFace defaultFaces
+faceSet beadSet new patchToFace defaultFaces
+faceSet empySet new patchToFace defaultFaces
+faceSet emptySet delete normalToFace (1 0 0) 0.01
+faceSet empySet delete normalToFace (1 0 0) 0.01
+faceSet empySet delete normalToFace (-1 0 0) 0.01
+faceSet empySet delete normalToFace (0 1 0) 0.01
+faceSet empySet delete normalToFace (0 -1 0) 0.01
+exit
