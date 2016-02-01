@@ -1,0 +1,73 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.0.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      fvSchemes;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+ddtSchemes
+{
+    default         Euler;
+}
+
+gradSchemes
+{
+    default         Gauss linear;
+    grad(p)         Gauss linear;
+}
+
+divSchemes
+{
+    default         none;
+    div(phin,Un)      Gauss linearUpwind phin; //limitedLinear 0.2; //linearUpwind phi;
+    div(phi,T)      Gauss linearUpwind phin; //limitedLinear 0.2; // linearUpwind phi;
+    div(phis,Us)      Gauss linearUpwind phis;// limitedLinear 0.2; //linearUpwind phis; //linear;
+}
+
+laplacianSchemes
+{
+    default         Gauss linear corrected;
+}
+
+interpolationSchemes
+{
+    default         linear;
+/*
+    interpolate(HbyA) linear;
+ 	interpolate(Us) upwind phis;
+ 	interpolate(Un) upwind phin;
+
+ 	interpolate((1|A(Us))) upwind phis;
+ 	interpolate((1|A(Un))) upwind phin;
+
+	interpolate(Us_0) upwind phis;
+	interpolate(Un_0) upwind phin;
+
+	interpolate(((1|deltaT)*(1|A(Us))))  upwind phis;
+	interpolate(((1|deltaT)*(1|A(Un))))  upwind phin;
+*/
+}
+
+snGradSchemes
+{
+    default         corrected;
+}
+
+fluxRequired
+{
+    default         no;
+    p               ;
+}
+
+
+// ************************************************************************* //

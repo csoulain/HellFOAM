@@ -23,6 +23,9 @@ Description
 Tutorials
 	
 	The package comes with different examples 
+		* capillaryGorterMellink: solve superfluid helium flow in a tube in the Gorter-Mellink
+			regime. Simulation results can be compared with analytical solutions
+			(see Soulaine et al. 2015, section 4.2)
 		* capillaryWithCylindersGorterMellink: solve superfluid helium flow in a porous medium 
 			model (a capillary containing several solid cylinders) in the Gorter-Mellink regime
 			(see Soulaine et al. 2015, section 4.4)
